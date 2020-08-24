@@ -13,4 +13,4 @@ for skill in sk_table.find_all('tbody'):
     for row in rows:
         names = row.find('td')
         if names:
-            print(names.text)
+            print(names.text.strip())
